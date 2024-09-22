@@ -4,7 +4,7 @@ public class Main {
         System.out.println(windowsDialog.getTruePixels());
         System.out.println("True Pixels (Windows): " + windowsDialog.getTruePixels());
 
-        MacDialog macDialog = new MacDialog(128, 128, null);
+        MacDialog macDialog = new MacDialog(50, 10);
         System.out.println(macDialog.getTruePixels());
         System.out.println("True Pixels (Mac): " + macDialog.getTruePixels());
 
@@ -12,7 +12,6 @@ public class Main {
         Cat cat1 = new Cat("Kissa");
         Horse horse1 = new Horse("Hevonen");
 
-        public static void main(String[] args) {
         animal1.breathe();
        cat1.breathe();
        horse1.talk();
